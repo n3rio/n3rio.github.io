@@ -19,6 +19,9 @@ jQuery(document).ready(function($) {
         });
 
     });
+    $("#imprime").click(function () {
+	$("div#myPrintArea").printArea();
+    };
    
     
 
